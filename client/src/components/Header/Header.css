@@ -1,0 +1,47 @@
+.navigator {
+  background: #f1f1f1;
+  box-shadow: 0 2px 5px 0px #bdbdbd;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  .list {
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+
+    .link {
+      align-items: center;
+      border-radius: 5px;
+      color: #000000;
+      display: flex;
+      gap: 5px;
+      height: 100%;
+      padding: 0 5px 0 5px;
+      text-decoration: none;
+      transition: background-color .3s ease;
+
+      .icon,
+      .text {
+        margin: 0;
+      }
+
+      .icon {
+        font-size: 16px;
+      }
+
+      .text {
+        font-size: 12px;
+      }
+
+      &:hover {
+        background: #00000021;
+      }
+    }
+  }
+}

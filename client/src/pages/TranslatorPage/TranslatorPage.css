@@ -1,0 +1,33 @@
+.translatorPage {
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  min-height: calc(100dvh - 40px);
+
+  .title {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .container {
+    background: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0px #bdbdbd;
+    box-sizing: border-box;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "fromLang reverse toLang"
+      "write . read";
+    grid-template-columns: 1fr 40px 1fr;
+    grid-template-rows: 40px 1fr;
+    height: 250px;
+    max-width: 800px;
+    padding: 10px;
+    width: 100%;
+  }
+}

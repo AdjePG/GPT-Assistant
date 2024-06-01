@@ -1,0 +1,14 @@
+.langBox {
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px;
+
+  &.from {
+    grid-area: fromLang;
+  }
+
+  &.to {
+    grid-area: toLang;
+  }
+}

@@ -1,0 +1,72 @@
+.textBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+
+  .dropzone {
+    border: dashed 5px turquoise;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .dropzoneBackground {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .icon {
+      background: #f1f1f1;
+      border-radius: 50%;
+      box-sizing: border-box;
+      height: 60px;
+      padding: 15px;
+      width: 60px;
+    }
+  }
+
+  .text {
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 10px;
+    resize: none;
+    width: 100%
+  }
+
+  &.write {
+    grid-area: write;
+
+    .text {
+      height: 100%;
+    }
+  }
+
+  &.read {
+    grid-area: read;
+
+    .text {
+      background: #ffffff00;
+      height: calc(100% - 40px);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 5px;
+      justify-content: right;
+    }
+  }
+}
