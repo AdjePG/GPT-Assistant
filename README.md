@@ -16,7 +16,7 @@
 
 <p align="justify">The project is divided in two main parts, which are the server side and the client side. I use React with react router, NodeJS (especifically ExpressJS) and the OpenAI API for the text and image generation</p>
 
-![Video](https://github.com/AdjePG/GPT-Assistant/assets/107345217/97c34190-cddd-4baa-bc93-a4738bc4ac2f)
+https://github.com/AdjePG/GPT-Assistant/assets/107345217/fd8b321c-c87b-4b6c-80cf-36f727abed7c
 
 ## Requisites
 If you want to clone the project, you'll just need the following programs and commands:
